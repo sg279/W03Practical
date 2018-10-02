@@ -50,7 +50,7 @@ public class Tests extends AbstractFactoryClient {
     public void createOwnerNullValues() {
         boolean exceptionThrown = false;
         try {
-            ILoyaltyCardOwner nullOwner = getFactory().makeLoyaltyCardOwner(null,null);
+            ILoyaltyCardOwner nullOwner = getFactory().makeLoyaltyCardOwner(null, null);
         }
         catch (NullPointerException e) {
             exceptionThrown = true;
